@@ -1,5 +1,6 @@
 package calcapp.main;
 import calcapp.logics.CalcLogic; //CalaLogicという表記があったら、calcapp.logics.CalcLogicのことだと解釈しなさいという意味
+//import calcapp.logics.*;  //calcapp.logicsパッケージに属するすべてのクラスをインポートしたい場合
 public class Cala {
   public static void main(String[] args) {
     int a = 10;
