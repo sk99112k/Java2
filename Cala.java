@@ -10,5 +10,3 @@ public class Cala {
     System.out.println("足すと" + total + "、引くと" + delta);
   }
 }
-
-//実行するときはmainメソッドが含まれるクラスの名前を指定する必要がある
