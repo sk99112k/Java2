@@ -10,3 +10,7 @@ public class Cala {
     System.out.println("足すと" + total + "、引くと" + delta);
   }
 }
+
+//import calcapp.logics.*;
+//import calcapp.main.*;
+//calcapp.logics と calcapp.main に所属するすべてのクラスをインポートしたい場合にはこのように記述する。
