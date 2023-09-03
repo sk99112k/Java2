@@ -14,3 +14,6 @@ public class Calc {
 //import calcapp.logics.*;
 //import calcapp.main.*;
 //calcapp.logics と calcapp.main に所属するすべてのクラスをインポートしたい場合にはこのように記述する。
+
+
+/* コンパイルエラーで解決できないので次行きます。 */
