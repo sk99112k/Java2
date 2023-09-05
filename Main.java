@@ -1,6 +1,9 @@
 public class Main {
   public static void main(String[] args) { 
-    System.out.println("hello, world!");
-    System.out.println("菅原");
+    int[] heights = {172, 149, 152, 191, 155};
+    java.util.Arrays.sort(heights);
+    for (int h : heights) {
+      System.out.println(h);
+    }
   }
 }
