@@ -1,13 +1,21 @@
 public class Main {
   public static void main (String[] args) {
-    Hero h = new Hero();
+    Hero h = new Hero(); //勇者を生成し初期化
     h.name = "みなと";
     h.hp = 100;
-    System.out.println("勇者" + h.name + "を生み出しました。");
-    
-    h.sit(5);
-    h.slip();
-    h.sit(25);
-    h.run();
+
+    Matango m1 = new Matango(); //お化けきのこ1匹目を生成し初期化
+    m1.hp = 50;
+    m1.suffix = 'A';
+
+    Matango m2 = new Matango(); //お化けきのこ2匹目を生成し初期化
+    m2.hp = 48;
+    m2.suffix = 'B';
+
+    //冒険の始まり
+    h.slip(); //勇者は転ぶ
+    m1.run(); //お化けきのこAが逃げる
+    m2.run(); //お化けきのこBも逃げる
+    h.run(); //勇者も逃げる
   }
 }
