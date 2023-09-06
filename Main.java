@@ -6,7 +6,7 @@ public class Main {
     System.out.println("勇者" + h.name + "を生み出しました。");
     
     h.sit(5);
-    h.slip() ;
+    h.slip();
     h.sit(25);
     h.run();
   }
