@@ -5,6 +5,7 @@ public class Hero {
 
   public Hero(String name) {
     this.hp = 100; //hpフィールドを100で初期化。newされた直後に自動的の実行される
+    this.name = name;
   }
 
   public void attack() {

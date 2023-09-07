@@ -7,12 +7,14 @@ public class Main {
     Hero h1 = new Hero("みなと"); //勇者を生成し初期化
     //h1.name = "みなと";
     //h1.hp = 100;
+    //System.out.println(h1.name);
     h1.sword = s;
     System.out.println("現在の武器は" + h1.sword.name);
 
     Hero h2 = new Hero("アサカ");
     //h2.name = "アサカ";
     //h2.hp = 100;
+    //System.out.println(h2.name);
 
     Wizard w = new Wizard();
     w.name = "すがわら";
