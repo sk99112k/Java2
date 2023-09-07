@@ -7,6 +7,10 @@ public class Hero {
     this.hp = 100; //hpフィールドを100で初期化。newされた直後に自動的の実行される
     this.name = name;
   }
+  public Hero() {
+    this.hp = 100;
+    this.name = "ダミー"; //Mainで引数がないときは、こっちのコンストラクタが呼び出される。
+  }
 
   public void attack() {
     System.out.println(this.name + "は、" + this.sword.name + "で攻撃した。");

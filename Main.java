@@ -11,7 +11,7 @@ public class Main {
     h1.sword = s;
     System.out.println("現在の武器は" + h1.sword.name);
 
-    Hero h2 = new Hero("アサカ");
+    Hero h2 = new Hero();
     //h2.name = "アサカ";
     //h2.hp = 100;
     //System.out.println(h2.name);
