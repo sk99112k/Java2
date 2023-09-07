@@ -20,6 +20,7 @@ public class Main {
 
     //冒険の始まり
     h.slip(); //勇者は転ぶ
+    h.attack(); //勇者は攻撃する
     m1.run(); //お化けきのこAが逃げる
     m2.run(); //お化けきのこBも逃げる
     h.run(); //勇者も逃げる
