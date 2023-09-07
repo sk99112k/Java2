@@ -3,6 +3,10 @@ public class Hero {
   int hp;
   Sword sword;
 
+  public Hero() {
+    this.hp = 100; //hpフィールドを100で初期化。newされた直後に自動的の実行される
+  }
+
   public void attack() {
     System.out.println(this.name + "は、" + this.sword.name + "で攻撃した。");
     System.out.println("敵に5ポイントのダメージを与えた。");
