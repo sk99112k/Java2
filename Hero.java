@@ -8,8 +8,7 @@ public class Hero {
     this.name = name;
   }
   public Hero() {
-    this.hp = 100;
-    this.name = "ダミー"; //Mainで引数がないときは、こっちのコンストラクタが呼び出される。
+    this ("ダミー"); //Mainで引数がないときは、こっちのコンストラクタが呼び出される。
   }
 
   public void attack() {
