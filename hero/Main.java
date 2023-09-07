@@ -1,5 +1,3 @@
-package hero;
-
 //実行するときは、heroフォルダからすべてのファイルを出す。
 
 public class Main {
