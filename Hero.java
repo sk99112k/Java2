@@ -3,7 +3,7 @@ public class Hero {
   int hp;
   Sword sword;
 
-  public Hero() {
+  public Hero(String name) {
     this.hp = 100; //hpフィールドを100で初期化。newされた直後に自動的の実行される
   }
 

@@ -4,14 +4,14 @@ public class Main {
     s.name = "炎の剣";
     s.damage = 10;
 
-    Hero h1 = new Hero(); //勇者を生成し初期化
-    h1.name = "みなと";
+    Hero h1 = new Hero("みなと"); //勇者を生成し初期化
+    //h1.name = "みなと";
     //h1.hp = 100;
     h1.sword = s;
     System.out.println("現在の武器は" + h1.sword.name);
-    
-    Hero h2 = new Hero();
-    h2.name = "アサカ";
+
+    Hero h2 = new Hero("アサカ");
+    //h2.name = "アサカ";
     //h2.hp = 100;
 
     Wizard w = new Wizard();
