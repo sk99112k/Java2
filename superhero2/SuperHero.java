@@ -1,7 +1,7 @@
 public class SuperHero extends Hero {
   boolean flying;
   public SuperHero(String name) {
-    super(name); //親クラス Hero のコンストラクタを呼び出す
+    super(name); //superをつけることで親クラスHeroのコンストラクタを呼び出す
     this.flying = false; // 初期値は飛んでいない状態
   }
   //飛ぶ
