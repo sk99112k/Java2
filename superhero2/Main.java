@@ -1,12 +1,13 @@
 public class Main {
   public static void main(String[] args) {
-    SuperHero h = new SuperHero();
+    Hero h = new Hero("みなと");
     Matango m = new Matango('A');
+    SuperHero sh = new SuperHero("アサカ");
 
     h.attack(m);
     m.run();
     h.run();
-    h.fly();
-    h.land();
+    sh.land();
+    sh.run();
   }
 }
