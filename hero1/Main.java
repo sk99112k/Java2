@@ -1,4 +1,4 @@
-import Matango;
+import hero2.Matango;
 
 public class Main {
   public static void main (String[] args) {
