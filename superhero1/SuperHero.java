@@ -1,4 +1,3 @@
-package superhero1;
 public class SuperHero {
   String name = "みなと";
   int hp = 100;
