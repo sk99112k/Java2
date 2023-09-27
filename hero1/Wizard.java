@@ -1,3 +1,5 @@
+import 練習問題10.Hero;
+
 public class Wizard {
   String name;
   int hp;
