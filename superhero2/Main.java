@@ -1,3 +1,6 @@
+import 練習問題10.Hero;
+import 練習問題10.Matango;
+
 public class Main {
   public static void main(String[] args) {
     Hero h = new Hero("みなと");

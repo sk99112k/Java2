@@ -1,3 +1,5 @@
+import 練習問題10.Matango;
+
 public class SuperHero {
   String name = "みなと";
   int hp = 100;

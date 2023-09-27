@@ -1,3 +1,5 @@
+import 練習問題10.Matango;
+
 public class Hero {
   String name;
   int hp;
